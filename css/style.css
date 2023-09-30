@@ -1,0 +1,101 @@
+#wrapping {
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    border: 5000px;
+}
+
+body {
+    background-color: black;
+    background-image: url(../images/snack.jpeg);
+    background-size: cover;
+    margin: auto;
+}
+
+#top-img {
+    background-image: url(../images/Program.jpeg);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 50%;
+    margin: auto;
+}
+
+#top-img h1 {
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 2%;
+    color: white;
+}
+
+#navbar {
+    background-color: white;
+    /* Black background color */
+    position: fixed;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* fit only the data that I have */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+    /* will set the display and the justify*/
+}
+
+
+/* Style the navbar links */
+
+#navbar a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
+#pop-out-nav {
+    background-color: white;
+    /* Black background color */
+    position: fixed;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* fit only the data that I have */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+}
+
+#pop-out-nav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#pop-out-nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+#first-text {
+    text-wrap: wrap;
+    color: wheat;
+    font-family: fantasy;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    text-wrap: wrap;
+}
